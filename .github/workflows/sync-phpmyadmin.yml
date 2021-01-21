@@ -18,6 +18,6 @@ jobs:
               uses: sudo-bot/action-fork-sync@v1.0.4
               with:
                   source-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/phpmyadmin/phpmyadmin.git"
-                  fork-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/williamdes/phpmyadmintest.git"
+                  fork-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/shucon/phpmyadmin.git"
                   clone-depth: "100"
                   branches: "master,QA_5_1,QA_5_0,QA_4_9,STABLE"
